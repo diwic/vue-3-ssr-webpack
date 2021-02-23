@@ -8,4 +8,4 @@ Problem 2: The webpack build outputs a warning:
     WARNING in ./node_modules/@vue/server-renderer/dist/server-renderer.cjs.js 99:63-70
     Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
     
-Problem 3: The output is empty when running the final bundle.
+Problem 3: While simply running `node ssrapp2.js` yields correct output, the output is empty when running the bundled version with `node dist/bundled.js`.
