@@ -1,0 +1,25 @@
+{
+  "name": "vue-3-ssr-webpack",
+  "version": "1.0.0",
+  "description": "Problem 1: The wrong build of 'vue' is included by default, causing `vue.ssrUtils` to be undefined. \r Note: According to the README in vue/dist, vue should be externalised, so that's what I've tried here. Although I would still like to have the option to not externalise it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwic/vue-3-ssr-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwic/vue-3-ssr-webpack/issues"
+  },
+  "homepage": "https://github.com/diwic/vue-3-ssr-webpack#readme",
+  "dependencies": {
+    "@vue/server-renderer": "^3.0.5",
+    "vue": "^3.0.5",
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
